@@ -9,7 +9,7 @@ import styles from "./about.module.scss"
 const AboutPage = ({ data }) => {
   return (
     <Layout title="About" pathName="/about">
-      <h1 className="page-heading">About</h1>
+      <h1 className="page-heading">Sobre nosotros</h1>
 
       <AboutContent
         heading={data.aboutSectionOne.frontmatter.heading}
@@ -34,7 +34,7 @@ const AboutPage = ({ data }) => {
 
       <section className={styles.finalSectionWrapper}>
         <div>
-          <h2 className="section-heading">Thanks for stopping by!</h2>
+          <h2 className="section-heading">¡Gracias por visitarnos!</h2>
           <div
             dangerouslySetInnerHTML={{
               __html: data.aboutSectionFinal.html,

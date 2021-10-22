@@ -91,7 +91,7 @@ const IndexPage = ({ data }) => {
           }
           imageAlt={data.aboutSectionMarkdown.frontmatter.imageAlt}
           imageFirst={true}
-          button={{ text: "Read More", url: "/about" }}
+          button={{ text: "Leer más", url: "/about" }}
         />
       </section>
     </Layout>

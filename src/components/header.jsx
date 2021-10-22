@@ -24,7 +24,7 @@ const Header = () => {
         <nav className={styles.navMain}>
           <span>
             <Link to="/" className={styles.navHomeLink}>
-              Voyager
+              Mainumby
             </Link>
           </span>
 
@@ -34,7 +34,7 @@ const Header = () => {
               className={styles.navItem}
               activeClassName={styles.navItemActive}
             >
-              Home
+              Hotel
             </Link>
             <Link
               to="/blog"
@@ -42,14 +42,14 @@ const Header = () => {
               activeClassName={styles.navItemActive}
               partiallyActive={true}
             >
-              Blog
+              Chajarí
             </Link>
             <Link
               to="/about"
               className={styles.navItem}
               activeClassName={styles.navItemActive}
             >
-              About
+              Nosotros
             </Link>
             <a
               href={`https://www.instagram.com/${data.siteMetadata.siteMetadata.social.instagram}`}

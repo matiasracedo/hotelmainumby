@@ -1,7 +1,7 @@
 ---
 type: page-content
 name: index-about
-heading: "About"
+heading: "Sobre nosotros"
 image: "../../images/guille-pozzi-jD34AmVhESc-unsplash.jpg"
 imageAlt: "alt text here"
 ---

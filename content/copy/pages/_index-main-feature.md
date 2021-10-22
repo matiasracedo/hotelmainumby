@@ -1,8 +1,8 @@
 ---
 type: page-content
 name: index-main-feature
-heading: Gatsby Starter Voyager
+heading: Hotel Mainumby Chajarí
 linkUrl: "/about"
-linkText: Read More
+linkText: Leer más
 ---
-Gatsby Starter Voyager is feature-rich starter blog. It's MIT licensed and ready to be used as-is or as a starting point from which to build something tailored to your needs. Use it, learn from it, build on it & enjoy.
+Los cambios te llenan de buena energía, y mucho más cuando la gente que te rodea te acompaña 😍

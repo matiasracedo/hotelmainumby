@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: "https://gatsby-starter-voyager.netlify.com",
     author: "gregdferrell",
     publisher: "gatsby-starter-voyager.netlify.com",
-    title: "Voyager",
+    title: "Mainumby",
     description:
       "Gatsby Starter Voyager is feature-rich starter blog. It's MIT licensed and ready to be used as-is or as a starting point from which to build something tailored to your needs. Use it, learn from it, build on it & enjoy.",
     image: "/images/logo.jpg",
