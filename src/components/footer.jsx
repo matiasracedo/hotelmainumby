@@ -46,7 +46,7 @@ const Footer = () => {
               target="__blank"
               className="nav-link mh3"
             >
-              Subscribe
+              Suscribirse
             </a>
             |
             <a href="/rss.xml" className="nav-link mh3">

@@ -17,7 +17,7 @@ tag_details:
   description: ''
   featured: true
   featured_image: "../images/termas-Chajari -aerea.jpeg"
-  featured_image_alt: alt text here
+  featured_image_alt: termas de chajarí
 - name: americas
   description: ''
   featured: true

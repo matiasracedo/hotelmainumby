@@ -12,7 +12,7 @@ const BlogListItem = ({ node }) => {
           <div className={styles.postColumn}>
             <h2 className={styles.title}>{node.frontmatter.title}</h2>
             <p className={styles.subtitle}>
-              by {node.frontmatter.author} on {node.frontmatter.date}
+              por {node.frontmatter.author} en {node.frontmatter.date}
             </p>
             {node.frontmatter.tags.length > 0 && (
               <p className={styles.tags}>

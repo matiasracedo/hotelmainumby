@@ -91,7 +91,7 @@ const Tags = ({ data, pageContext }) => {
       pathName={`/blog/tags/${tag}`}
     >
       <header className="tc">
-        <h1 className="page-heading">Articles Tagged "{tag}"</h1>
+        <h1 className="page-heading">Posts con la etiqueta "{tag}"</h1>
       </header>
 
       {tagDetails && tagDetails.description && (

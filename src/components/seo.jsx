@@ -57,7 +57,7 @@ const SEO = ({
               "@type": "Person",
               name: seo.author,
             },
-            copyrightYear: "2019",
+            copyrightYear: "2021",
             creator: {
               "@type": "Person",
               name: seo.author,
@@ -72,7 +72,7 @@ const SEO = ({
                 width: 600,
               },
             },
-            datePublished: "2019-10-13T00:00:00+02:00",
+            datePublished: "2021-10-23T00:00:00+02:00",
             dateModified: data.site.buildTime,
             image: {
               "@type": "ImageObject",
