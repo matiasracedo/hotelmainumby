@@ -26,6 +26,7 @@ const Header = () => {
             <Link to="/" className={styles.navHomeLink}>
               Mainumby
             </Link>
+            <img src='images/logo  Mainumby-transp.png' alt='mainumby' width="50" height="30" className={styles.navHomeImg}></img>
           </span>
 
           <div className={styles.navItemList}>

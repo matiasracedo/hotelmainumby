@@ -2,6 +2,7 @@ const path = require("path")
 
 const { GraphQLBoolean } = require("gatsby/graphql")
 
+
 // Add `published` property to MarkdownRemark nodes to indicate if this markdown is to be published.
 module.exports.setFieldsOnGraphQLNodeType = ({ type }) => {
   if ("MarkdownRemark" === type.name) {

@@ -36,14 +36,15 @@
 .nav-home-link {
   @extend .text-color-secondary;
 
-  @extend .bb, .db, .f3, .mb2, .no-underline, .pb2, .tc, .ttu, .v-mid;
+  @extend .bb, .db, .f3, .mb2, .no-underline, .pb2, .tc;
   @extend .bb-0-l, .dtc-l, .pb0-l, .tl-l;
+  font-size: 2rem;
 
   &:hover {
     @extend .text-color-secondary;
   }
 
-  font-family: "Rock Salt", cursive;
+  font-family: 'Harlow-Solid-Italic';
 }
 
 .nav-item-list {
@@ -60,4 +61,10 @@
 
 .nav-item-active {
   @extend .fw6, .text-color-secondary;
+}
+
+.nav-home-img {
+  @media screen and (max-width: 60em) {
+    display: none;
+  }
 }

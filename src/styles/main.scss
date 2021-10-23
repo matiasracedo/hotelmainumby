@@ -6,10 +6,21 @@
 
 $color-primary: #e6eaf3;
 $color-secondary: #FEA82F;
-$color-tertiary: #38589c;
-$color-tertiary-light: #cdd5e6;
+$color-tertiary: #FFC288;
+$color-tertiary-light: #FCECDD;
 
 // ********** Fonts
+
+@font-face {
+  font-family: 'Harlow-Solid-Italic';
+  src: local('Harlow-Solid-Italic'), 
+      url(/fonts/Harlow-Solid-Italic.ttf.woff) format('woff'),
+      url(/fonts/Harlow-Solid-Italic.ttf.svg#Harlow-Solid-Italic) format('svg'),
+      url(/fonts/Harlow-Solid-Italic.ttf.eot),
+      url(/fonts/Harlow-Solid-Italic.ttf.eot?#iefix) format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
 
 // Base Font
 // font-family: "Open Sans", sans-serif;
