@@ -20,7 +20,7 @@ module.exports = {
       facebook: "hotelmainumbyfederacion1",
       twitter: 'hotelmainumby',
     },
-    mailchimpUrl: "",
+    mailchimpUrl: "https://gtsb.us5.list-manage.com/subscribe/post?u=6fe15563eb5e0caafe85fd9bb&amp;id=0c6812030d",
   },
   plugins: [
     {

@@ -2,8 +2,8 @@
 type: page-content
 name: about-2
 heading: "Comodidades y Servicios en Hotel Mainumby Chajarí"
-image: "../../images/guille-pozzi-jD34AmVhESc-unsplash.jpg"
-imageAlt: "alt text here"
+image: "../../images/habitaciones-hotel-mainumby2.png"
+imageAlt: "habitaciones hotel mainumby"
 ---
 Contamos con habitaciones standard, superiores y premium.
 

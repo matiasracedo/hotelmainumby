@@ -16,7 +16,7 @@ const EmailSignup = () => {
 
   return (
     <div className={styles.signupSection}>
-      <h2 className="section-heading">Subscribe to this blog!</h2>
+      <h2 className="section-heading">¡Suscribite para recibir novedades!</h2>
       <form
         className={styles.form}
         action={data.site.siteMetadata.mailchimpUrl}
@@ -32,7 +32,7 @@ const EmailSignup = () => {
             </label>
             <input
               className={styles.formInputEmail}
-              placeholder="Your Email Address"
+              placeholder="Dirección de Email"
               type="text"
               name="EMAIL"
               id="email-address"
@@ -41,7 +41,7 @@ const EmailSignup = () => {
               className={styles.formSubmit}
               type="submit"
               name="subscribe"
-              value="Subscribe"
+              value="Suscribirse"
             />
           </div>
         </fieldset>

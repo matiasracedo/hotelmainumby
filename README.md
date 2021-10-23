@@ -112,7 +112,7 @@ Here are the minimal steps you'll need to take to re-brand and re-configure the 
 
 **Page Content**
 
-Some page content (like the text in the about sections) have been externalized to markdown. The markdown files for partial page content exist in `content/copy/pages`. The frontmatter may vary from page to page, but some frontmatter fields are required. For example:
+Some page content (like the text in the about sections) have been externalized to markdown. The markdown files for partial page content exist in `content/copy/pages`. The  may vary from page to page, but some frontmatter fields are required. For example:
 ```yaml
 ---
 type: page-content # required; should be "page-content"
