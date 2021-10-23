@@ -54,20 +54,20 @@ const BlogListTemplate = ({ data, pageContext }) => {
     ? null
     : {
         linkPath: prevPage,
-        linkText: "Previous Page",
+        linkText: "Página anterior",
       }
 
   const nextDetails = isLast
     ? null
     : {
         linkPath: nextPage,
-        linkText: "Next Page",
+        linkText: "Página siguiente",
       }
 
   return (
     <Layout title={`Blog - Page ${currentPage}`} pathName="/blog">
       <header className={styles.header}>
-        <h1 className={styles.title}>Blog</h1>
+        <h1 className={styles.title}>Ciudad de Amigos</h1>
       </header>
       <BlogList data={data.allMarkdownRemark} />
       <PrevNext prevDetails={prevDetails} nextDetails={nextDetails} />

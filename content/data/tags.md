@@ -13,16 +13,16 @@ tag_details:
   featured: false
   # featured_image: ''
   featured_image_alt: ''
-- name: europe
+- name: termas
   description: ''
   featured: true
-  featured_image: "../images/florian-wehde-WBGjg0DsO_g-unsplash.jpg"
+  featured_image: "../images/termas-Chajari -aerea.jpeg"
   featured_image_alt: alt text here
 - name: americas
   description: ''
   featured: true
   featured_image: "../images/yajnas-ug-sFqNqRVw-unsplash.jpg"
-  featured_image_alt: alt text here
+  featured_image_alt: parque termal chajari aerea
 - name: spain
   description: ''
   featured: false

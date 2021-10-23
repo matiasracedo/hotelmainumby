@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
-import { FaInstagram, FaTwitter } from "react-icons/fa"
+import { FaInstagram, FaFacebook } from "react-icons/fa"
 
 import styles from "./header.module.scss"
 
@@ -11,7 +11,7 @@ const Header = () => {
         siteMetadata {
           social {
             instagram
-            twitter
+            facebook
           }
         }
       }
@@ -26,7 +26,7 @@ const Header = () => {
             <Link to="/" className={styles.navHomeLink}>
               Mainumby
             </Link>
-            <img src='images/logo  Mainumby-transp.png' alt='mainumby' width="50" height="30" className={styles.navHomeImg}></img>
+            <img src='/images/logo-mainumby-transp.png' alt='mainumby' className={styles.navHomeImg}></img>
           </span>
 
           <div className={styles.navItemList}>
@@ -35,7 +35,7 @@ const Header = () => {
               className={styles.navItem}
               activeClassName={styles.navItemActive}
             >
-              Hotel
+              Principal
             </Link>
             <Link
               to="/blog"
@@ -61,12 +61,12 @@ const Header = () => {
               <FaInstagram className="icon" alt="instagram icon link"/>
             </a>
             <a
-              href={`https://www.twitter.com/${data.siteMetadata.siteMetadata.social.twitter}`}
+              href={`https://www.facebook.com/${data.siteMetadata.siteMetadata.social.facebook}`}
               target="_blank"
               rel="noopener noreferrer"
               className="ml3 ml4-l"
             >
-              <FaTwitter className="icon" alt="twitter icon link"/>
+              <FaFacebook className="icon" alt="facebook icon link"/>
             </a>
           </div>
         </nav>

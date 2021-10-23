@@ -173,7 +173,7 @@ const SEO = ({
             <meta name="twitter:card" content="summary" />
             <meta
               name="twitter:site"
-              content={`@${data.site.siteMetadata.social.twitter}`}
+              content={`@${data.site.siteMetadata.social.facebook}`}
             />
             <meta name="twitter:title" content={seo.title} />
             <meta name="twitter:description" content={seo.description} />
@@ -214,7 +214,7 @@ const query = graphql`
         siteUrl
         title
         social {
-          twitter
+          facebook
         }
       }
     }

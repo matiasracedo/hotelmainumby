@@ -2,4 +2,9 @@
 type: page-content
 name: about-final
 ---
-Gatsby Starter Voyager is feature-rich starter blog. It's MIT licensed and ready to be used as-is or as a starting point from which to build something tailored to your needs. Use it, learn from it, build on it & enjoy.
+
+Contacto
+
+Urquiza 1040, Chajarí, Entre Ríos
+Teléfono: Celular (03456) 154 13788 // Fijo (0343) 4979 153
+Envianos un Whatsapp: +5493456413788

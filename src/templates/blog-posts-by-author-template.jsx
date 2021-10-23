@@ -59,14 +59,14 @@ const Authors = ({ data, pageContext }) => {
     ? null
     : {
         linkPath: prevPage,
-        linkText: "Previous Page",
+        linkText: "Página anterior",
       }
 
   const nextDetails = isLast
     ? null
     : {
         linkPath: nextPage,
-        linkText: "Next Page",
+        linkText: "Página siguiente",
       }
 
   return (

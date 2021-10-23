@@ -6,18 +6,19 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://gatsby-starter-voyager.netlify.com",
-    author: "gregdferrell",
+    siteUrl: "https://hotelmainumby.gtsb.io/",
+    author: "matiasracedo",
     publisher: "gatsby-starter-voyager.netlify.com",
     title: "Mainumby",
     description:
-      "Gatsby Starter Voyager is feature-rich starter blog. It's MIT licensed and ready to be used as-is or as a starting point from which to build something tailored to your needs. Use it, learn from it, build on it & enjoy.",
+      "Hotel Mainumby Chajarí, Entre Ríos, Argentina. Donde el protagonista sos vos!",
     image: "/images/logo.jpg",
     bannerImage: "/images/banner.png",
     blogPostsPerPage: 5,
     social: {
-      instagram: "",
-      twitter: "",
+      instagram: "hotel_mainumby",
+      facebook: "hotelmainumbyfederacion1",
+      twitter: 'hotelmainumby',
     },
     mailchimpUrl: "",
   },

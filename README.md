@@ -162,8 +162,8 @@ tag_details:
 - name: europe
   description: 'All posts document our travels through Europe.'
   featured: true
-  featured_image: "../images/florian-wehde-WBGjg0DsO_g-unsplash.jpg"
-  featured_image_alt: alt text here
+  featured_image: "../images/termas-Chajari -aerea.jpeg"
+  featured_image_alt: parque termal chajari aerea
 ```
 
 # License

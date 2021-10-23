@@ -1,8 +1,9 @@
 ---
 type: page-content
 name: about-1
-heading: "Etiam"
-image: "../../images/eduardo-dutra-AHIp7107h7k-unsplash.jpg"
-imageAlt: "alt text here"
+heading: "Hotel Mainumby"
+image: "../../images/hotel-mainumby-portada.jpg"
+imageAlt: "hotel mainumby"
 ---
-Etiam tincidunt porttitor tempus. Duis commodo malesuada convallis. Etiam mauris nulla, finibus sit amet mauris ac, dictum interdum neque. Duis imperdiet accumsan felis non maximus. Nunc quis enim sit amet sapien dictum varius. Morbi ac mauris et est viverra vestibulum. Praesent aliquam urna in augue euismod, nec volutpat lectus fermentum. Nam pulvinar nibh in lacus accumsan, non venenatis justo congue.
+Somos una gran familia hotelera que se dedica al rubro desde el año 2013, habiendo comenzado nuestras actividades en la ciudad de Federación. En el afán de seguir creciendo, ofrecer más servicios y mayor calidad de hotelería nos hemos trasladado a esta ciudad porque además. estamos convencidos que disfrutarán de cada día de su estadía.
+¡Muchas gracias por seguir eligiéndonos!

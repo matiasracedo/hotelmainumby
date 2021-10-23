@@ -67,7 +67,7 @@ const IndexPage = ({ data }) => {
 
       {/* Latest Posts */}
       <section className={styles.latestPostsSection}>
-        <h2 className="section-heading">Latest Posts</h2>
+        <h2 className="section-heading">Publicaciones recientes</h2>
         <BlogList data={data.latestPosts} />
       </section>
 

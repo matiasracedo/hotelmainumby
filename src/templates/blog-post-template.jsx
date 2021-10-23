@@ -57,7 +57,7 @@ const BlogPosts = ({ data, pageContext }) => {
   const nextDetails = !next
     ? null
     : {
-        titleText: "Next Post",
+        titleText: "Siguiente Publicación",
         linkPath: "/blog/" + next.fields.slug,
         linkText: next.frontmatter.title,
       }
@@ -65,7 +65,7 @@ const BlogPosts = ({ data, pageContext }) => {
   const prevDetails = !prev
     ? null
     : {
-        titleText: "Previous Post",
+        titleText: "Publicación Anterior",
         linkPath: "/blog/" + prev.fields.slug,
         linkText: prev.frontmatter.title,
       }
@@ -90,15 +90,15 @@ const BlogPosts = ({ data, pageContext }) => {
           )}
           <div>
             <span className={styles.subtitle}>
-              by{" "}
+              por{" "}
               <Link to={`/blog/authors/${post.frontmatter.author}`}>
                 {post.frontmatter.author}
               </Link>{" "}
-              on {post.frontmatter.dateFormattedPretty}
+              en {post.frontmatter.dateFormattedPretty}
             </span>
           </div>
           <SocialShare
-            text="SHARE THIS POST"
+            text="COMPARTIR"
             shareTitle={post.frontmatter.title}
             shareUrl={`${data.site.siteMetadata.siteUrl}/blog/${post.fields.slug}`}
           />
@@ -119,9 +119,9 @@ const BlogPosts = ({ data, pageContext }) => {
         ></div>
 
         <div className={styles.postEnd}>
-          <h3 className="section-sub-heading">Thanks for reading!</h3>
+          <h3 className="section-sub-heading">¡Gracias por leernos!</h3>
           <SocialShare
-            text="SHARE THIS POST"
+            text="COMPARTIR"
             shareTitle={post.frontmatter.title}
             shareUrl={`${data.site.siteMetadata.siteUrl}/blog/${post.fields.slug}`}
           />

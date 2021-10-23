@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
-import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa"
+import { FaInstagram, FaFacebook } from "react-icons/fa"
 
 import styles from "./footer.module.scss"
 
@@ -11,7 +11,7 @@ const Footer = () => {
         siteMetadata {
           social {
             instagram
-            twitter
+            facebook
           }
           mailchimpUrl
         }
@@ -23,29 +23,21 @@ const Footer = () => {
     <div className={styles.footerWrapper}>
       <footer className={styles.footer}>
         <div className={styles.footerColumnName}>
-          <span className={styles.name}>Voyager</span>
+          <span className={styles.name}>Mainumby</span>
           <p className="f5">
-            Gatsby Starter Voyager is MIT Licensed.
+            Chajarí, Entre Ríos, Argentina.
           </p>
-          <div>
-            <a
-              href="https://github.com/gregdferrell/gatsby-starter-voyager"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="icon" alt="github icon link" />
-            </a>
-          </div>
+         
         </div>
         <div className={styles.footerColumnLinks}>
           <Link to="/" className={styles.navItem}>
-            Home
+            Principal
           </Link>
           <Link to="/blog" className={styles.navItem}>
-            Blog
+            Chajarí
           </Link>
           <Link to="/about" className={styles.navItem}>
-            About
+            Nosotros
           </Link>
           <hr />
           <div>
@@ -75,11 +67,11 @@ const Footer = () => {
             <FaInstagram className="icon" alt="instagram icon link" />
           </a>
           <a
-            href={`https://www.twitter.com/${data.site.siteMetadata.social.twitter}`}
+            href={`https://www.facebook.com/${data.site.siteMetadata.social.facebook}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter className="icon" alt="twitter icon link" />
+            <FaFacebook className="icon" alt="twitter icon link" />
           </a>
         </div>
       </footer>

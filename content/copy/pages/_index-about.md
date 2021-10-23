@@ -2,9 +2,8 @@
 type: page-content
 name: index-about
 heading: "Sobre nosotros"
-image: "../../images/guille-pozzi-jD34AmVhESc-unsplash.jpg"
+image: "../../images/hotel-mainumby-portada.jpg"
 imageAlt: "alt text here"
 ---
-Write a short blurb about your site here and link to your About page for more information.
-
-Suspendisse id urna fermentum, sagittis erat ac, ultricies ligula. Quisque porta lacus finibus, semper ex id, malesuada odio. Cras ac nisi aliquam, gravida metus a, tristique nisl. Etiam sit amet justo lacinia, finibus mi vel, lobortis arcu.
+Somos una gran familia hotelera que se dedica al rubro desde el año 2013, habiendo comenzado nuestras actividades en la ciudad de Federación. En el afán de seguir creciendo, ofrecer más servicios y mayor calidad de hotelería nos hemos trasladado a esta ciudad porque además. estamos convencidos que disfrutarán de cada día de su estadía.
+¡Muchas gracias por seguir eligiéndonos!
