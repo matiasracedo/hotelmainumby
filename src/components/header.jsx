@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
-import { FaInstagram, FaFacebook } from "react-icons/fa"
+import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa"
 
 import styles from "./header.module.scss"
 
@@ -67,6 +67,14 @@ const Header = () => {
               className="ml3 ml4-l"
             >
               <FaFacebook className="icon" alt="facebook icon link"/>
+            </a>
+            <a
+              href={`https://wa.me/5493456413788`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml3 ml4-l"
+            >
+              <FaWhatsapp className="icon" alt="whatsapp icon link"/>
             </a>
           </div>
         </nav>

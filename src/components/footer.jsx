@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
-import { FaInstagram, FaFacebook } from "react-icons/fa"
+import { FaInstagram, FaFacebook, FaWhatsapp, FaEnvelope } from "react-icons/fa"
 
 import styles from "./footer.module.scss"
 
@@ -73,6 +73,22 @@ const Footer = () => {
           >
             <FaFacebook className="icon" alt="twitter icon link" />
           </a>
+          <a
+              href={`https://wa.me/5493456413788`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml3 ml4-l"
+            >
+              <FaWhatsapp className="icon" alt="whatsapp icon link"/>
+            </a>
+            <a
+              href={`mailto:hotelmainumbyreservas@gmail.com`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml3 ml4-l"
+            >
+              <FaEnvelope className="icon" alt="email icon link"/>
+            </a>
         </div>
       </footer>
     </div>
