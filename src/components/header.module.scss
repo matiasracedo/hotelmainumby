@@ -57,6 +57,9 @@
 
   @extend .dib, .ml3;
   @extend .ml4-l;
+  @media screen and (max-width: 380px) {
+    font-size: 14px;
+  }
 }
 
 .nav-item-active {
