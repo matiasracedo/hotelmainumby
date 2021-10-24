@@ -35,6 +35,7 @@ const AboutPage = ({ data }) => {
       <section className={styles.finalSectionWrapper}>
         <div>
           <h2 className="section-heading">¡Gracias por visitarnos!</h2>
+          <h2 className="section-heading">Contacto:</h2>
           <div
             dangerouslySetInnerHTML={{
               __html: data.aboutSectionFinal.html,

@@ -8,34 +8,19 @@ name: tags
 #   featured_image (the image to show on the home page)
 #   featured_image_alt (alt text)
 tag_details:
-- name: travel
-  description: ""
-  featured: false
-  # featured_image: ''
-  featured_image_alt: ''
+- name: playas
+  description: "Playas cercanas a la ciudad de Chajarí, Entre Ríos."
+  featured: true
+  featured_image: '../images/balneario-camping-playa.jpeg'
+  featured_image_alt: 'Playas Chajarí'
 - name: termas
-  description: ''
+  description: 'Parque Termal de la ciudad de Chajarí.'
   featured: true
   featured_image: "../images/termas-Chajari -aerea.jpeg"
   featured_image_alt: termas de chajarí
-- name: americas
-  description: ''
+- name: chacras
+  description: 'Chacras y fincas de la ciudad de Chajarí'
   featured: true
-  featured_image: "../images/yajnas-ug-sFqNqRVw-unsplash.jpg"
-  featured_image_alt: parque termal chajari aerea
-- name: spain
-  description: ''
-  featured: false
-  # featured_image: ''
-  featured_image_alt: ''
-- name: puerto-rico
-  description: "Sed maximus vitae sapien eget posuere. Sed convallis orci sit amet sapien ornare congue. Vivamus gravida, purus quis tincidunt ornare, augue odio pretium enim, at semper massa nisi ut massa. Fusce porttitor consequat nisi, vitae feugiat nisi tempus non. Nunc laoreet felis porta turpis iaculis vulputate."
-  featured: false
-  # featured_image: ''
-  featured_image_alt: ''
-- name: architecture
-  description: "Integer lobortis nulla lorem, sed facilisis tellus hendrerit efficitur. Suspendisse dictum libero sed ligula malesuada tempus. Donec urna velit, pulvinar ac porttitor non, ultrices id nisi."
-  featured: true
-  featured_image: '../images/dmitry-goykolov-X8Vo9rGVPS8-unsplash.jpg'
-  featured_image_alt: 'alt text here'
+  featured_image: "../images/finca-el-pez-citrus.png"
+  featured_image_alt: Chacras Chajari
 ---

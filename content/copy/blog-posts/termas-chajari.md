@@ -19,7 +19,7 @@ El Parque Termal “Daniel Tisocco” se encuentra ubicado al norte de la provin
 
 ![piscinas parque termal chajari](../../images/termas-chajari-piscinas.jpeg)
 
-El Parque cuenta con 11 piscinas, señalizadas y segmentadas para niños y adultos con temperaturas de agua termal que varían desde los 32º a los 40º. Entre ellas se encuentra una piscina integrada, adaptada para personas con movilidad reducida; una piscina con cascada para la relajación muscular; tres piscinas con hidrojets; una semi-olímpica para actividades recreativas; una mini piscina babero; dos piscinas para niños con juegos recreativos y, por último, una piscina de uso temporal con toboganes. Se suman, además, los sectores de duchas y jacuzzis.
+El Parque cuenta con 11 piscinas, señalizadas y segmentadas para niños y adultos con temperaturas de agua termal que varían desde los 32º a los 40º. Entre ellas se encuentra una piscina integrada, adaptada para personas con movilidad reducida; una piscina con cascada para la relajación muscular; tres piscinas con hidrojets; una semi-olímpica para actividades recreativas; una mini piscina babero; dos piscinas para niños con juegos recreativos y, por último, una piscina de uso temporal con toboganes. Se suman, además, los sectores de duchas y jacuzzis, mas 3 piscinas de agua fría para disfrutar durante el verano.
 
 ## Reserva Natural
 
@@ -43,6 +43,6 @@ Se encuentran dentro del Parque Termal y están confeccionados con maderas rúst
 
 ## Espejo de agua
 
-![espejo de agua chajari](../../images/espejo-agua-chajari.jpeg)
+![espejo de agua chajari](../../images/ojo-de-agua-termas-chajari.png)
 
 Se encuentra ubicado dentro del Parque Termal y cuenta con diversas especies acuáticas características del río Uruguay como pacúes, sábalos, peces amur, rhandia o bagre lagunero. Este espacio, además, se emplaza una pasarela y mobiliarios para el disfrute de los visitantes.
