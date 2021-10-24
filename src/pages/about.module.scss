@@ -9,4 +9,8 @@
   p {
     @extend .center, .measure, .tc;
   }
+
+  @media screen and (max-width: 410px) {
+    font-size: 1.1rem;
+  }
 }
