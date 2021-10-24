@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://hotelmainumby.gtsb.io/",
-    author: "matiasracedo",
-    publisher: "gatsby-starter-voyager.netlify.com",
+    siteUrl: "https://hotelmainumby.com/",
+    author: "Matias Racedo",
+    publisher: "https://matiasracedo.github.io/",
     title: "Mainumby",
     description:
       "Hotel Mainumby Chajarí, Entre Ríos, Argentina. Donde el protagonista sos vos!",
@@ -149,15 +149,15 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
     },
     "gatsby-plugin-robots-txt",
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: "", // Google Analytics Tracking ID
-    //     head: false,
-    //     respectDNT: true,
-    //     cookieDomain: "", // Your Domain
-    //   },
-    // },
+     {
+       resolve: `gatsby-plugin-google-analytics`,
+       options: {
+         trackingId: "UA-190531066-1", // Google Analytics Tracking ID
+         head: false,
+         respectDNT: true,
+         cookieDomain: "hotelmainumby.com/", // Your Domain
+       },
+     },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-web-font-loader",
