@@ -8,7 +8,7 @@ name: tags
 #   featured_image (the image to show on the home page)
 #   featured_image_alt (alt text)
 tag_details:
-- name: playas
+- name: playa
   description: "Playas cercanas a la ciudad de Chajarí, Entre Ríos."
   featured: true
   featured_image: '../images/balneario-camping-playa.jpeg'

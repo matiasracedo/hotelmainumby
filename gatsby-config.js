@@ -152,7 +152,7 @@ module.exports = {
      {
        resolve: `gatsby-plugin-google-analytics`,
        options: {
-         trackingId: "UA-190531066-1", // Google Analytics Tracking ID
+         trackingId: process.env.GOOGLE_TRACKING_ID, // Google Analytics Tracking ID
          head: true,
          respectDNT: true,
          cookieDomain: "hotelmainumby.com/", // Your Domain
