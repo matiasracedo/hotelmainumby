@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 const NotFound = ({ data }) => {
   return (
     <Layout title="Oops. Page not found.">
-      <h1 className="page-heading">Oops. Page not found.</h1>
+      <h1 className="page-heading">Página no encontrada.</h1>
       <Img
         fluid={data.photo404.childImageSharp.fluid}
         alt="Monkey, not found!"
