@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: "https://hotelmainumby.com/",
     author: "Matias Racedo",
     publisher: "https://matiasracedo.github.io/",
-    title: "Mainumby",
+    title: "Hotel Mainumby",
     description:
       "Hotel Mainumby Chajarí, Entre Ríos, Argentina. Donde el protagonista sos vos!",
     image: "/images/logo.jpg",

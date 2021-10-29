@@ -65,7 +65,7 @@ const BlogListTemplate = ({ data, pageContext }) => {
       }
 
   return (
-    <Layout title={`Blog - Page ${currentPage}`} pathName="/blog">
+    <Layout title={`Chajarí - Pág. ${currentPage}`} pathName="/blog">
       <header className={styles.header}>
         <h1 className={styles.title}>Ciudad de Amigos</h1>
       </header>

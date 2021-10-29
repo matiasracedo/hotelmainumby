@@ -18,8 +18,8 @@ const Authors = () => {
   `)
 
   return (
-    <Layout title="All Blog Authors" pathName="/blog/authors">
-      <h1 className="page-heading">Authors</h1>
+    <Layout title="Autores" pathName="/blog/authors">
+      <h1 className="page-heading">Autores</h1>
       <section className={styles.authorSection}>
         {data.allMarkdownRemark.group.map(author => (
           <div key={author.fieldValue}>

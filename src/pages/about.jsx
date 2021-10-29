@@ -8,7 +8,7 @@ import styles from "./about.module.scss"
 
 const AboutPage = ({ data }) => {
   return (
-    <Layout title="About" pathName="/about">
+    <Layout title="Nosotros" pathName="/about">
       <h1 className="page-heading">Sobre nosotros</h1>
 
       <AboutContent
@@ -30,6 +30,13 @@ const AboutPage = ({ data }) => {
         copy={data.aboutSectionThree.html}
         image={data.aboutSectionThree.frontmatter.image.childImageSharp.fluid}
         imageAlt={data.aboutSectionThree.frontmatter.imageAlt}
+      />
+
+      <AboutContent
+        heading={data.aboutSectionFour.frontmatter.heading}
+        copy={data.aboutSectionFour.html}
+        image={data.aboutSectionFour.frontmatter.image.childImageSharp.fluid}
+        imageAlt={data.aboutSectionFour.frontmatter.imageAlt}
       />
 
       <section className={styles.finalSectionWrapper}>
@@ -90,6 +97,26 @@ export const query = graphql`
       frontmatter: {
         type: { eq: "page-content" }
         name: { eq: "about-3" }
+      }
+    ) {
+      frontmatter {
+        heading
+        image {
+          childImageSharp {
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+          publicURL
+        }
+        imageAlt
+      }
+      html
+    }
+    aboutSectionFour: markdownRemark(
+      frontmatter: {
+        type: { eq: "page-content" }
+        name: { eq: "about-4" }
       }
     ) {
       frontmatter {

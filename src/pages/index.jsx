@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
   })
 
   return (
-    <Layout layoutFullWidth title="Home">
+    <Layout layoutFullWidth title="Principal">
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <div className={styles.heroColumnFirst}>

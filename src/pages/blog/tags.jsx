@@ -18,8 +18,8 @@ const Tags = () => {
   `)
 
   return (
-    <Layout title="All Blog Tags" pathName="/blog/tags">
-      <h1 className="page-heading">Tags</h1>
+    <Layout title="Palabras clave" pathName="/blog/tags">
+      <h1 className="page-heading">Palabras clave</h1>
       <section className={styles.tagSection}>
         {data.allMarkdownRemark.group.map(tag => (
           <div key={tag.fieldValue}>
