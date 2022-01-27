@@ -5,7 +5,7 @@ heading: "Comodidades y Servicios en Hotel Mainumby Chajarí"
 image: "../../images/habitaciones-hotel-mainumby2.png"
 imageAlt: "habitaciones hotel mainumby"
 ---
-Contamos con habitaciones standard, superiores y premium.
+Contamos con habitaciones standard, superiores y premium. Mas abajo puede encontrar fotos del hotel y las habitaciones.
 
 ### Habitaciones standard
 Ubicadas en planta baja y primer piso, cuentan con los servicios básicos para disfrutar de una buena estadía: desayuno, música funcional, calefacción y aire acondicionado central, tv led, baño con bañera, secador de cabello, teléfono intercomunicador, servicio de despertador y wifi.

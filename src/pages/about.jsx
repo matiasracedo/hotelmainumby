@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import AboutContent from "../components/about-content"
+import Gallery from "../components/gallery"
 
 import styles from "./about.module.scss"
 
@@ -50,6 +51,9 @@ const AboutPage = ({ data }) => {
           ></div>
         </div>
       </section>
+
+    <Gallery />
+
     </Layout>
   )
 }

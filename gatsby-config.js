@@ -209,5 +209,6 @@ module.exports = {
         precachePages: ["/blog", "/about"],
       },
     },
+    "gatsby-plugin-material-ui",
   ],
 }
