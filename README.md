@@ -1,8 +1,6 @@
 # Gatsby Starter Voyager
 
-Gatsby Starter Voyager is feature-rich starter blog. It's MIT licensed and ready to be used as-is or as a starting point from which to build something tailored to your needs. Use it, learn from it, build on it & enjoy.
-
-### [View Demo](https://gatsby-starter-voyager.netlify.com)
+This is a blog-style website based on Gatsby Starter Voyager. It's MIT licensed and ready to be used as-is or as a starting point from which to build something tailored to your needs. Use it, learn from it, build on it & enjoy.
 
 ![gatsby starer voyager home page](./voyager-home.png)
 
@@ -25,8 +23,8 @@ Gatsby Starter Voyager is feature-rich starter blog. It's MIT licensed and ready
 ## Getting Started
 
 ```sh
-git clone git@github.com:gregdferrell/gatsby-starter-voyager.git
-cd gatsby-starter-voyager
+git clone https://github.com/matiasracedo/hotelmainumby.git
+cd hotelmainumby
 npm install
 
 # Standard Gatsby Development Commands
@@ -79,9 +77,9 @@ Here are the minimal steps you'll need to take to re-brand and re-configure the 
 
 ```scss
     $color-primary: #e6eaf3;
-    $color-secondary: #9c7c38;
-    $color-tertiary: #38589c;
-    $color-tertiary-light: #cdd5e6;
+    $color-secondary: #FEA82F;
+    $color-tertiary: #FFC288;
+    $color-tertiary-light: #FCECDD;
 ```
   - Note, the value for `$color-secondary` is hard-coded into the `gatsby-plugin-manifest` as the theme color, so it needs to change there along with other properties in the manifest.
 
@@ -105,7 +103,7 @@ Here are the minimal steps you'll need to take to re-brand and re-configure the 
 
 **gatsby-config.js: plugins**
 
-- Uncomment and configure `gatsby-plugin-google-analytics` with your own `trackingId` and `cookieDomain`
+- Configure `gatsby-plugin-google-gtag` with your own `trackingId`, or comment.
 - Rebrand your manifest in `gatsby-plugin-manifest` as mentioned above.
 
 ## Content
@@ -168,37 +166,5 @@ tag_details:
 
 # License
 
-Gatsby Starter Voyager is licensed under the MIT License.
+Licensed under the MIT License.
 
-# Contributing
-
-If you would like to improve this repo, please do! Contributions are welcome!
-
-# Thanks
-
-This site was built with open source and free images. It, too, is open and free for you to use as you wish. Thanks to the following:
-- [GatsbyJS](https://gatsbyjs.org) for a great web development framework.
-- [Tachyons CSS](https://tachyons.io) for a great CSS library.
-- [Netlify](https://www.netlify.com) for an awesome static hosting platform.
-- [Unsplash](https://unsplash.com) and the photographers:
-  - [Ahmet Sali](https://unsplash.com/@ahmetsali)
-  - [Biel Morro](https://unsplash.com/@bielmorro)
-  - [Dmitry Goykolov](https://unsplash.com/@dmitrypraguephotos)
-  - [Eduardo Dutra](https://unsplash.com/@edwardutra)
-  - [Flavio Gasperini](https://unsplash.com/@flaviewxvx)
-  - [Florencia Potter](https://unsplash.com/@florenciapotter)
-  - [Florian Wehde](https://unsplash.com/@florianwehde)
-  - [Guille Pozzi](https://unsplash.com/@guillepozzi)
-  - [Jamie Haughton](https://unsplash.com/@haughters)
-  - [Jonathan Riley](https://unsplash.com/@jonathan_christian_photography)
-  - [Jorge Salvador](https://unsplash.com/@jsshotz)
-  - [Joseph Barrientos](https://unsplash.com/@jbcreate_)
-  - [Luca Bravo](https://unsplash.com/@lucabravo)
-  - [Michael Cadieux](https://unsplash.com/@michaelcadieux)
-  - [Nadi Whatisdelirium](https://unsplash.com/@whatisdelirium)
-  - [Nicolai Berntsen](https://unsplash.com/@nicolaiberntsen)
-  - [Pedro Lastra](https://unsplash.com/@peterlaster)
-  - [Stephanie Klepacki](https://unsplash.com/@sklepacki)
-  - [Unknown Photographer](https://unsplash.com/@unknown_)
-  - [Wenhao Ryan](https://unsplash.com/@wenhao_ryan)
-  - [Yajnas](https://unsplash.com/@yajnass)

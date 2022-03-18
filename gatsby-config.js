@@ -149,16 +149,7 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
     },
     "gatsby-plugin-robots-txt",
-    //  {
-    //    resolve: "gatsby-plugin-google-analytics",
-    //    options: {
-    //      trackingId: process.env.GOOGLE_TRACKING_ID, // Google Analytics Tracking ID
-    //      head: true,
-    //      respectDNT: true,
-    //      cookieDomain: "hotelmainumby.com", // Your Domain
-    //    },
-    //  },
-     {
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -196,7 +187,7 @@ module.exports = {
         short_name: "Voyager",
         start_url: "/",
         background_color: "#fff",
-        theme_color: "#9c7c38",
+        theme_color: "#FEA82F",
         display: "minimal-ui",
         // optional
         icon: "static/images/logo.jpg",
