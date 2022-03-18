@@ -1,8 +1,8 @@
-# Gatsby Starter Voyager
+# Hotel Mainumby
 
 This is a blog-style website based on Gatsby Starter Voyager. It's MIT licensed and ready to be used as-is or as a starting point from which to build something tailored to your needs. Use it, learn from it, build on it & enjoy.
 
-![gatsby starer voyager home page](./voyager-home.png)
+![gatsby starer voyager home page](./hotel-mainumby-chajari.png)
 
 # Features
 
