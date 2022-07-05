@@ -10,7 +10,8 @@ tags:
 - relax
 excerpt: El Parque Termal “Daniel Tisocco” se encuentra ubicado al norte de la provincia de Entre Ríos. Cuenta con una superficie de 40 ha emplazadas sobre el kilómetro 329 de la Autovía Nacional “José Gervasio Artigas” y la Avenida “Padre Miguel Gallay”.
 image: "../../images/termas-chajari-piscinas.jpeg"
-imageAlt: vista aerea parque termal chajari
+imageAlt: parque termal chajari
+gallery: []
 ---
 
 ## Ubicación

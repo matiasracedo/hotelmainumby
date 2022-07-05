@@ -74,7 +74,7 @@ const Footer = () => {
             <FaFacebook className="icon" alt="twitter icon link" />
           </a>
           <a
-              href={`https://wa.me/5493456413788`}
+              href={`https://wa.me/5493416941201/?text=Consulta%20desde%20el%20sitio%0Ahttps%3A%2F%2Fhotelmainumby.com%0A----------------------------%0A%0A`}
               target="_blank"
               rel="noopener noreferrer"
               className="ml3 ml4-l"

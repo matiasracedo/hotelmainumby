@@ -11,6 +11,7 @@ tags:
 excerpt: Quintas ubicadas en una zona altamente privilegiada para el desarrollo citrícola, permiten a Chajarí hacer gala de su principal actividad económica.
 image: "../../images/finca-el-pez-citrus.png"
 imageAlt: alt text here
+gallery: []
 ---
 
 

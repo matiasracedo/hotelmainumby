@@ -16,7 +16,7 @@ module.exports = {
     bannerImage: "/images/banner.png",
     blogPostsPerPage: 5,
     social: {
-      instagram: "hotel_mainumby",
+      instagram: "hotel_mainumby_chajari",
       facebook: "hotelmainumbyfederacion1",
       twitter: 'hotelmainumby',
     },

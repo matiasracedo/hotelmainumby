@@ -11,6 +11,7 @@ tags:
 excerpt: Internándose por sólidos caminos de ripio, entre espesas plantaciones de cítricos y eucaliptos, tras el recorrido de unos kilómetros, Chajarí se brinda al turismo veraniego con toda la belleza del Lago Salto Grande, el verde de la naturaleza, las playas de arena que lo contemplan desde la orilla, el cielo limpio y el sol brillante.
 image: "../../images/balneario-chajari.jpeg"
 imageAlt: balneario camping chajari
+gallery: []
 ---
 
 

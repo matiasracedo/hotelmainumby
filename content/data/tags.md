@@ -16,7 +16,7 @@ tag_details:
 - name: termas
   description: 'Parque Termal de la ciudad de Chajarí.'
   featured: true
-  featured_image: "../images/termas-Chajari -aerea.jpeg"
+  featured_image: "../images/termas-chajari-piscinas.jpeg"
   featured_image_alt: termas de chajarí
 - name: chacras
   description: 'Chacras y fincas de la ciudad de Chajarí'

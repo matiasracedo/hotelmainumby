@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import PrevNext from "../components/prev-next"
 import Button from "../components/button"
 import SocialShare from "../components/social-share"
+import Gallery from "../components/gallery"
 
 import styles from "./blog-post-template.module.scss"
 
@@ -32,6 +33,11 @@ export const queryPostBySlug = graphql`
           publicURL
         }
         imageAlt
+        gallery {
+          src
+          width
+          height
+        }
       }
       html
       id
@@ -117,6 +123,8 @@ const BlogPosts = ({ data, pageContext }) => {
           className={styles.postContent}
           dangerouslySetInnerHTML={{ __html: post.html }}
         ></div>
+
+        {post.frontmatter.gallery.length > 0 ? <Gallery photos={post.frontmatter.gallery} /> : null}
 
         <div className={styles.postEnd}>
           <h3 className="section-sub-heading">¡Gracias por leernos!</h3>
