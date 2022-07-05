@@ -59,11 +59,6 @@ const photos = [
       height: 4
     },
     {
-      src: "https://i.ibb.co/n8R6sL1/Habitacion-premium-2.jpg",
-      width: 4,
-      height: 4
-    },
-    {
       src: "https://i.ibb.co/VYZtw50/Habitacion-secundaria-premium.jpg",
       width: 4,
       height: 4
@@ -95,11 +90,6 @@ const photos = [
     },
     {
       src: "https://i.ibb.co/VLgkBy5/Ban-o-premium-4.jpg",
-      width: 4,
-      height: 4
-    },
-    {
-      src: "https://i.ibb.co/D1h6TvD/Habitacion-superior-6.jpg",
       width: 4,
       height: 4
     },
