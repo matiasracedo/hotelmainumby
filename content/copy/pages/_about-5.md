@@ -1,13 +1,10 @@
 ---
 type: page-content
-name: index-main-feature
-heading: Promoción especial Vacaciones de Invierno en Hotel Mainumby Chajarí con Go cuotas!!
-linkUrl: "/about"
-linkText: Leer más
+name: about-5
+heading: "Promoción especial Vacaciones de Invierno en Hotel Mainumby Chajarí con Go cuotas!!"
 image: "../../images/go-cuotas.png"
 imageAlt: "go cuotas hotel mainumby"
 ---
-
 Vení 5 días y 4 noches con desayuno más 1 entrada a termas por tan solo 4 cuotas de $ 2.950 por persona!!🥳 
 
 Con Go cuotas abonás tus vacaciones hasta en 4 cuotas con tu tarjeta de débito. Siiii!😍
