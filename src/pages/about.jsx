@@ -212,13 +212,6 @@ const AboutPage = ({ data }) => {
       />
 
       <AboutContent
-        heading={data.aboutSectionFour.frontmatter.heading}
-        copy={data.aboutSectionFour.html}
-        image={data.aboutSectionFour.frontmatter.image.childImageSharp.fluid}
-        imageAlt={data.aboutSectionFour.frontmatter.imageAlt}
-      />
-
-      <AboutContent
         heading={data.aboutSectionFive.frontmatter.heading}
         copy={data.aboutSectionFive.html}
         image={data.aboutSectionFive.frontmatter.image.childImageSharp.fluid}
