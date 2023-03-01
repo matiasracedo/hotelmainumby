@@ -211,12 +211,12 @@ const AboutPage = ({ data }) => {
         imageAlt={data.aboutSectionThree.frontmatter.imageAlt}
       />
 
-      <AboutContent
-        heading={data.aboutSectionFive.frontmatter.heading}
-        copy={data.aboutSectionFive.html}
-        image={data.aboutSectionFive.frontmatter.image.childImageSharp.fluid}
-        imageAlt={data.aboutSectionFive.frontmatter.imageAlt}
-      />
+      {/*<AboutContent
+      //  heading={data.aboutSectionFive.frontmatter.heading}
+      //  copy={data.aboutSectionFive.html}
+      //  image={data.aboutSectionFive.frontmatter.image.childImageSharp.fluid}
+      //  imageAlt={data.aboutSectionFive.frontmatter.imageAlt}
+      />*/}
 
       <section className={styles.finalSectionWrapper}>
         <div>

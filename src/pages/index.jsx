@@ -76,13 +76,14 @@ const IndexPage = ({ data }) => {
             __html: data.mainFeatureSectionMarkdown.html,
           }}
         ></div>
-        <Button
+        {/*<Button
           linkUrl={data.mainFeatureSectionMarkdown.frontmatter.linkUrl}
           linkText={data.mainFeatureSectionMarkdown.frontmatter.linkText}
-        />
+        />*/}
       </div>
-
       <Img fluid={data.mainFeatureSectionMarkdown.frontmatter.image.childImageSharp.fluid} alt={data.mainFeatureSectionMarkdown.frontmatter.imageAlt} className={styles.imageWrapperFirst} />
+      <Img fluid={data.mainFeatureSectionMarkdown2.frontmatter.image.childImageSharp.fluid} alt={data.mainFeatureSectionMarkdown.frontmatter.imageAlt} className={styles.imageWrapperFirst} />
+      <Img fluid={data.mainFeatureSectionMarkdown3.frontmatter.image.childImageSharp.fluid} alt={data.mainFeatureSectionMarkdown.frontmatter.imageAlt} className={styles.imageWrapperFirst} />
     </section>
 
       {/* Latest Posts */}
@@ -203,6 +204,46 @@ export const query = graphql`
 
     mainFeatureSectionMarkdown: markdownRemark(
       frontmatter: { type: { eq: "page-content" }, name: { eq: "index-main-feature" } }
+    ) {
+      frontmatter {
+        heading
+        linkUrl
+        linkText
+        image {
+          childImageSharp {
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+          publicURL
+        }
+        imageAlt
+      }
+      html
+    }
+
+    mainFeatureSectionMarkdown2: markdownRemark(
+      frontmatter: { type: { eq: "page-content" }, name: { eq: "index-main-feature2" } }
+    ) {
+      frontmatter {
+        heading
+        linkUrl
+        linkText
+        image {
+          childImageSharp {
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+          publicURL
+        }
+        imageAlt
+      }
+      html
+    }
+
+    mainFeatureSectionMarkdown3: markdownRemark(
+      frontmatter: { type: { eq: "page-content" }, name: { eq: "index-main-feature3" } }
     ) {
       frontmatter {
         heading
