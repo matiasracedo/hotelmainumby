@@ -54,8 +54,8 @@
 .main-feature-section {
   @extend .center, .mt5, .ph4, .tc;
   @extend .mt6-l, .ph5-l;
-  @extend .center, .flex, .flex-column, .items-center, .tc;
-  //@extend .flex, .flex-wrap, .flex-column, .items-center, .tc;
+  //@extend .center, .flex, .flex-column, .items-center, .tc;
+  @extend .flex, .flex-wrap, .flex-column, .items-center, .tc;
   @extend .flex-row-l, .mb6-l;
   @extend .standard-page-width;
 }
