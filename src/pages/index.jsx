@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => {
 
       {/* Main Feature*/}
 
-      <section className={styles.mainFeatureSection}>
+      {/*<section className={styles.mainFeatureSection}>
         <h2 className="section-heading">
           {data.mainFeatureSectionMarkdown.frontmatter.heading}
         </h2>
@@ -60,11 +60,11 @@ const IndexPage = ({ data }) => {
             __html: data.mainFeatureSectionMarkdown.html,
           }}
         ></div>
-        {/*<Button
+        <Button
           linkUrl={data.mainFeatureSectionMarkdown.frontmatter.linkUrl}
           linkText={data.mainFeatureSectionMarkdown.frontmatter.linkText}
-        />*/}
-      </section>
+        />
+      </section>*/}
 
       {/* Latest Posts */}
       <section className={styles.latestPostsSection}>
