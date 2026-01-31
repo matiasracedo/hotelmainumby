@@ -1,18 +1,19 @@
 ---
 type: page-content
 name: index-main-feature
-heading: "PROMOCIÓN PARA ENERO Y FEBRERO 2024 ABONANDO TOTAL DE ESTADÍA ANTES DEL 15/11/23"
+heading: "A veces, lo primero que se ve no cuenta toda la historia."
 linkUrl: "/about"
-linkText: Ver otras promociones
-image: "../../images/promo-premium.jpeg"
-imageAlt: "go cuotas hotel mainumby"
+linkText: Conocer mas
+image: "../../images/frente-hotel.jpeg"
+imageAlt: "Frente hotel Mainumby"
 ---
 
-3 días y 2 noches estadía con desayuno por persona 
+Nuestro frente hoy no luce como nos gustaría. No lo escondemos, porque sería negar una realidad que existe.
+El contexto actual nos ha hecho difícil avanzar con algunas mejoras externas, pero hay algo que nunca dejamos de cuidar: lo que pasa puertas adentro.
 
-Con tarjeta de crédito: 6 cuotas de $ 10.080
+Cada habitación limpia, cada cama preparada con dedicación, cada desayuno servido con respeto, cada huésped recibido con la mejor atención posible.
+No pretendemos engañar a nadie. Somos lo que ves... y también lo que sentís cuando te alojás con nosotros.
 
-Con débito, transferencia o QR: $ 44.800
+Un hotel sencillo, con personas que trabajan todos los días para que tu estadía sea cómoda, tranquila y honesta.
 
-**Desayuno**: *Infusiones a elección*: café, mate cocido, te, leche, chocolatada, yogurt con cereales, jugo de naranja, soda o agua.
-*Panificación*: medialunas (2 x pers), 3 bizcochos, 4 tostadas, *Para untar*: manteca, queso untable, mermelada, dulce de leche.
+Gracias a quienes nos eligen, nos conocen y valoran el esfuerzo detrás de cada detalle. Seguimos acá, haciendo lo mejor que sabemos hacer: recibirte y brindarte la mejor atención, para que te sientas como si estuvieras en tu casa.
