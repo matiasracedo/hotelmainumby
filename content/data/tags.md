@@ -18,11 +18,6 @@ tag_details:
   featured: true
   featured_image: "../images/termas-chajari-piscinas.jpeg"
   featured_image_alt: termas de chajarí
-- name: restaurante
-  description: "Restaurante Don Pedro, Kuma by Mainumby."
-  featured: true
-  featured_image: '../images/restaurante-don-pedro.jpg'
-  featured_image_alt: 'Restaurante Don Pedro'
 - name: chacras
   description: 'Chacras y fincas de la ciudad de Chajarí'
   featured: true
