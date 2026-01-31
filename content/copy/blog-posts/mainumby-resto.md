@@ -1,79 +1,124 @@
 ---
 type: post
-draft: true
+draft: false
 title: Mainumby Restó
 author: Matías
-date: 2022-07-05
+date: 2024-01-05
 tags:
-- restó
+- restaurante
 - comidas
 - comedor
-excerpt: Comidas de autor, del chef Sebastián Baloni. Abierto al público en general, los días jueves, viernes y sábados desde las 20:30 hs hasta las 00:00 hs. Con reserva. Tel. 054 (03456) 424670 / Cel. +543456620283
-image: "../../images/mainumby-resto-hero.jpg"
-imageAlt: Mainumby restó
+excerpt: Abierto todos los días, de 11:00 a 15:00 hs y de 17:00 a 01:00 hs. Variado menú para Celíacos. Tel. 054 (03456) 422491. Cel. +543456529160 
+image: "../../images/restaurante-don-pedro.jpg"
+imageAlt: Restaurante Don Pedro
 gallery: [{
-    src: "https://i.ibb.co/bs8gLwd/2022-07-05-03-59-16-2.jpg",
+    src: "https://i.ibb.co/kDK75kv/trago-1.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/WcgS6Wq/2022-07-05-03-59-16-1.jpg",
+    src: "https://i.ibb.co/kMYTNrc/trago-2.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/tDz9ZTp/2022-07-05-03-59-15-2.jpg",
+    src: "https://i.ibb.co/HdLGPjJ/postre-1.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/PWLstNJ/2022-07-05-03-59-15-1.jpg",
+    src: "https://i.ibb.co/9q7GgpK/postre-2.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/gDwgK9q/2022-07-05-03-59-14-1.jpg",
+    src: "https://i.ibb.co/2KJ17hb/plato-1.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/S7smXqX/2022-07-05-03-59-18-3.jpg",
+    src: "https://i.ibb.co/ygDYxpk/plato-2.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/rQq5Brp/2022-07-05-03-59-18-2.jpg",
+    src: "https://i.ibb.co/WPHNfxY/plato-3.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/rcczW2j/2022-07-05-03-59-18-1.jpg",
+    src: "https://i.ibb.co/jvx5QWL/plato-4.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/bgzxnx7/2022-07-05-03-59-17-1.jpg",
+    src: "https://i.ibb.co/HgSgRm2/plato-5.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://i.ibb.co/7nYgWvC/2022-07-05-03-59-17-2.jpg",
+    src: "https://i.ibb.co/7Q2Bfyz/plato-6.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "https://i.ibb.co/5LPYtv8/plato-7.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "https://i.ibb.co/2vVwpwb/plato-8.jpg",
+    width: 1,
+    height: 1
+  },
+   {
+    src: "https://i.ibb.co/wcSLt4v/plato-9.jpg",
+    width: 1,
+    height: 1
+  },
+   {
+    src: "https://i.ibb.co/bH0yR8P/plato-10.jpg",
+    width: 1,
+    height: 1
+  },
+   {
+    src: "https://i.ibb.co/mFwdF5F/plato-11.jpg",
+    width: 1,
+    height: 1
+  },
+   {
+    src: "https://i.ibb.co/jRC8rcV/plato-12.jpg",
+    width: 1,
+    height: 1
+  },
+   {
+    src: "https://i.ibb.co/6DGhDnR/plato-13.jpg",
+    width: 1,
+    height: 1
+  },
+   {
+    src: "https://i.ibb.co/s5DqGtr/plato-14.jpg",
+    width: 1,
+    height: 1
+  },
+   {
+    src: "https://i.ibb.co/JdQQ0wL/plato-15.jpg",
     width: 1,
     height: 1
   }]
 ---
 
-## Mainumby Restó
+## Restaurante Don Pedro
 
-Comidas de autor, del chef Sebastián Baloni. Abierto al público en general, los días jueves, viernes y sábados desde las 20:30 hs hasta las 00:00 hs. Con reserva.
+Hotel Mainumby y Kuma apostaron a Chajarí para reinventar Restaurante Don Pedro, un lugar donde podrás venir a disfrutar de todos los momentos importantes de tu vida: bautismos, cumpleaños, despedidas, noches de mujeres, ellos y ellas, sábados de los '80, noches de folklore, de tango, de karaoke y por supuesto toda la diversión. Variado menú para Celíacos. Tel. (03456) 422491. Cel. +543456529160 
 
-![Mainumby restó](../../images/Mainumby-resto-ventana.jpeg)
+![Mainumby restó](../../images/restaurante-ventana.jpg)
 
 ## Menú
 
-Puede descargar la carta <a href="https://drive.google.com/file/d/1Ai6dghzasmj4X28uMTYwIaYYIBdeUOQb/view?usp=sharing" target="_blank" rel="noopener noreferrer">aquí</a>. Los precios están sujetos a cambios. Por favor consulte al momento de realizar la reserva a los siguientes números:</br>
-Fijo: 054 (03456) 424670</br>
-Celular/Whatsapp: +543456620283
+Puede descargar la carta <a href="https://www.canva.com/design/DAF2H5NGylc/8kjBnqGGoa6PIntTZs6-XA/view?utm_content=DAF2H5NGylc&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer">aquí</a>. Los precios están sujetos a cambios. Por favor consulte al momento de realizar la reserva a los siguientes números:</br>
+Fijo: 054 (03456) 422491</br>
+Celular/Whatsapp: +543456529160
 
 ## Platos
 

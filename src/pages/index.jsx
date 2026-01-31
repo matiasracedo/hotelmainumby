@@ -50,40 +50,21 @@ const IndexPage = ({ data }) => {
       </section>
 
       {/* Main Feature*/}
-      {/*
-      <section className={styles.mainFeatureSection}>
-        <h2 className="section-heading">
-          {data.mainFeatureSectionMarkdown.frontmatter.heading}
-        </h2>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: data.mainFeatureSectionMarkdown.html,
-          }}
-        ></div>
-        <Button
-          linkUrl={data.mainFeatureSectionMarkdown.frontmatter.linkUrl}
-          linkText={data.mainFeatureSectionMarkdown.frontmatter.linkText}
-        />
-      </section>
-      */}
-      <section className={styles.mainFeatureSection}>
-      <div className={styles.copyWrapper}>
-        <h2 className="section-heading">
-          {data.mainFeatureSectionMarkdown.frontmatter.heading}
-        </h2>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: data.mainFeatureSectionMarkdown.html,
-          }}
-        ></div>
-        <Button
-          linkUrl={data.mainFeatureSectionMarkdown.frontmatter.linkUrl}
-          linkText={data.mainFeatureSectionMarkdown.frontmatter.linkText}
-        />
-      </div>
 
-      <Img fluid={data.mainFeatureSectionMarkdown.frontmatter.image.childImageSharp.fluid} alt={data.mainFeatureSectionMarkdown.frontmatter.imageAlt} className={styles.imageWrapperFirst} />
-    </section>
+      {/*<section className={styles.mainFeatureSection}>
+        <h2 className="section-heading">
+          {data.mainFeatureSectionMarkdown.frontmatter.heading}
+        </h2>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: data.mainFeatureSectionMarkdown.html,
+          }}
+        ></div>
+        <Button
+          linkUrl={data.mainFeatureSectionMarkdown.frontmatter.linkUrl}
+          linkText={data.mainFeatureSectionMarkdown.frontmatter.linkText}
+        />
+      </section>*/}
 
       {/* Latest Posts */}
       <section className={styles.latestPostsSection}>
@@ -202,24 +183,19 @@ export const query = graphql`
     }
 
     mainFeatureSectionMarkdown: markdownRemark(
-      frontmatter: { type: { eq: "page-content" }, name: { eq: "index-main-feature" } }
+      frontmatter: {
+        type: { eq: "page-content" }
+        name: { eq: "index-main-feature" }
+      }
     ) {
       frontmatter {
         heading
         linkUrl
         linkText
-        image {
-          childImageSharp {
-            fluid(maxWidth: 900, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-          publicURL
-        }
-        imageAlt
       }
       html
     }
+
 
     aboutSectionMarkdown: markdownRemark(
       frontmatter: { type: { eq: "page-content" }, name: { eq: "index-about" } }
@@ -240,18 +216,6 @@ export const query = graphql`
     }
   }
 `
-// mainFeatureSectionMarkdown: markdownRemark(
-    //   frontmatter: {
-    //     type: { eq: "page-content" }
-    //     name: { eq: "index-main-feature" }
-    //   }
-    // ) {
-    //   frontmatter {
-    //     heading
-    //     linkUrl
-    //     linkText
-    //   }
-    //   html
-    // }
+
 
 export default IndexPage

@@ -211,6 +211,16 @@ const AboutPage = ({ data }) => {
         imageAlt={data.aboutSectionThree.frontmatter.imageAlt}
       />
 
+<<<<<<< HEAD
+=======
+      {/*<AboutContent
+      //  heading={data.aboutSectionFive.frontmatter.heading}
+      //  copy={data.aboutSectionFive.html}
+      //  image={data.aboutSectionFive.frontmatter.image.childImageSharp.fluid}
+      //  imageAlt={data.aboutSectionFive.frontmatter.imageAlt}
+      />*/}
+
+>>>>>>> fce5ca3f02fd6a87c37947b304f0b7127b65feab
       <section className={styles.finalSectionWrapper}>
         <div>
           <h2 className="section-heading">¡Gracias por visitarnos!</h2>
