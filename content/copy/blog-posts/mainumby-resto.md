@@ -1,6 +1,6 @@
 ---
 type: post
-draft: false
+draft: true
 title: Mainumby Restó
 author: Matías
 date: 2024-01-05
